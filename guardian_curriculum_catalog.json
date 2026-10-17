@@ -1,0 +1,1390 @@
+{
+  "version": "2026.10-b1",
+  "publication": "LOCAL_PREVIEW_ONLY",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Forex Market Foundations",
+      "level": "Beginner",
+      "lessons": [
+        {
+          "id": "01.01",
+          "title": "What Forex Is and Is Not",
+          "status": "draft_review",
+          "takeaway": "Forex is the global exchange of currencies",
+          "explanation": "Forex trading means comparing one currency with another; a currency pair expresses the price of the base currency in units of the quote currency. Commercial currency exchange and speculative leveraged retail trading are not the same activity.",
+          "example": "If EUR/USD is 1.1000, one euro is quoted at 1.10 US dollars, before transaction costs.",
+          "practice": "Explain why a correct market forecast can still lead to a loss after costs.",
+          "caution": "Trading is uncertain and price forecasts are not guarantees."
+        },
+        {
+          "id": "01.02",
+          "title": "Currency Pairs and Quotes",
+          "status": "draft_review",
+          "takeaway": "Currency pairs use base and quote currencies",
+          "explanation": "The first symbol is the base currency and the second is the quote currency. A rise in a pair means the base currency has strengthened relative to the quote currency; it does not mean both currencies rose against everything.",
+          "example": "GBP/USD at 1.2500 quotes 1 British pound at 1.25 US dollars.",
+          "practice": "Identify the base and quote in USD/JPY and describe what a rising USD/JPY means.",
+          "caution": "Pairs can behave differently across sessions and news events."
+        },
+        {
+          "id": "01.03",
+          "title": "Pips, Pipettes, and Price Movement",
+          "status": "draft_review",
+          "takeaway": "A pip is a standardized quote movement",
+          "explanation": "For many non-JPY pairs a pip is 0.0001; for many JPY pairs a pip is 0.01. Some platforms show fractional pips called pipettes. Pip monetary value depends on position size and quote currency.",
+          "example": "EUR/USD moving from 1.1000 to 1.1015 is 15 pips.",
+          "practice": "Calculate the pip change from 1.0850 to 1.0830 in EUR/USD.",
+          "caution": "Never assume every pair uses the same decimal convention."
+        },
+        {
+          "id": "01.04",
+          "title": "Spreads, Commissions, and Trading Costs",
+          "status": "draft_review",
+          "takeaway": "Trading costs can erase a small advantage",
+          "explanation": "The spread is the gap between bid and ask. Some accounts add commissions; overnight financing, slippage, and currency conversion can also matter. Evaluate a strategy after costs, not just its headline win rate.",
+          "example": "A hypothetical trade gains 3 pips gross but costs 2 pips in spread and commissions: net gain is 1 pip before other costs.",
+          "practice": "List at least three possible trading costs.",
+          "caution": "Actual spreads and execution vary, especially around events."
+        },
+        {
+          "id": "01.05",
+          "title": "Market Sessions and Liquidity",
+          "status": "draft_review",
+          "takeaway": "Liquidity and volatility vary by trading session",
+          "explanation": "Major currency centers operate at different times, and session overlaps can increase activity. More volume does not guarantee better outcomes. Daylight saving changes affect local clock times.",
+          "example": "A London–New York overlap may produce more activity than a quiet session, but event risk can also be elevated.",
+          "practice": "Describe why a strategy should record the time of each demo trade.",
+          "caution": "No trading session is guaranteed to produce a profitable setup."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Trading Platform and Order Basics",
+      "level": "Beginner",
+      "lessons": [
+        {
+          "id": "02.01",
+          "title": "Bid, Ask, and Execution",
+          "status": "draft_review",
+          "takeaway": "Bid and ask are two different executable quotes",
+          "explanation": "The bid is generally the price at which you can sell the base currency; the ask is generally the price at which you can buy it. Charts may display bid, ask, or mid prices, which can affect stop and entry expectations.",
+          "example": "Bid 1.0998 and ask 1.1000 imply a 2-pip spread in EUR/USD.",
+          "practice": "If you buy immediately, which quote generally applies?",
+          "caution": "Demo fills may not match real broker execution."
+        },
+        {
+          "id": "02.02",
+          "title": "Market, Limit, and Stop Orders",
+          "status": "draft_review",
+          "takeaway": "Order types trade certainty for price control",
+          "explanation": "A market order prioritizes execution but not an exact price. A limit order specifies a price or better but might not fill. A stop order becomes eligible after a trigger and may fill at a different price.",
+          "example": "A buy limit at 1.0900 may never fill if EUR/USD remains above that price.",
+          "practice": "Contrast a market order with a limit order.",
+          "caution": "Stop-loss and stop-entry orders cannot guarantee fill prices."
+        },
+        {
+          "id": "02.03",
+          "title": "Margin and Leverage",
+          "status": "draft_review",
+          "takeaway": "Leverage magnifies exposure and losses",
+          "explanation": "Margin is collateral supporting a larger notional position. Leverage lets a small balance control a larger exposure; even modest price moves can cause outsized losses, margin calls, or liquidation.",
+          "example": "At 20:1 leverage, $100 of margin could support $2,000 notional exposure; this is not a recommended position.",
+          "practice": "Explain why leverage is not free money.",
+          "caution": "Margin requirements and protections depend on broker and jurisdiction."
+        },
+        {
+          "id": "02.04",
+          "title": "Broker Regulation and Counterparty Risk",
+          "status": "draft_review",
+          "takeaway": "Broker safeguards and counterparties matter",
+          "explanation": "A broker's regulator, legal entity, account terms, execution model, and client-fund treatment affect risk. A familiar brand does not ensure every affiliated entity has the same protections.",
+          "example": "A broker may operate different legal entities with different rules depending on residence.",
+          "practice": "Name three facts to verify about a broker before opening any account.",
+          "caution": "Do not deposit money based solely on testimonials or claimed returns."
+        },
+        {
+          "id": "02.05",
+          "title": "Setting Up a Risk-Free Demo Account",
+          "status": "draft_review",
+          "takeaway": "Demo trading is for structured practice",
+          "explanation": "A demo account uses simulated funds and can help learn platform controls without financial loss. Demo results can differ from live trading because of emotions, liquidity, fills, and execution costs.",
+          "example": "Record a hypothetical entry, stop, reason, position size, and exit in a practice journal.",
+          "practice": "Draft three rules you will follow during demo practice.",
+          "caution": "Demo success does not predict live profitability."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Reading Price Charts",
+      "level": "Beginner",
+      "lessons": [
+        {
+          "id": "03.01",
+          "title": "Chart Types and Timeframes",
+          "status": "draft_review",
+          "takeaway": "Chart types summarize different information",
+          "explanation": "Line charts typically show selected prices, bars and candlesticks show open-high-low-close information. Timeframes change the granularity of observations and may alter apparent trends.",
+          "example": "A daily candle summarizes a full trading day while a 5-minute candle captures a shorter interval.",
+          "practice": "Explain one advantage and one limitation of candlestick charts.",
+          "caution": "Historical patterns are descriptions, not reliable forecasts by themselves."
+        },
+        {
+          "id": "03.02",
+          "title": "Candlestick Anatomy",
+          "status": "draft_review",
+          "takeaway": "A candle shows open high low close",
+          "explanation": "The body spans open to close; wicks extend to high and low. Candle color indicates direction for the selected period, not the next period's direction.",
+          "example": "A candle opens 1.1000, reaches 1.1020, falls to 1.0990, closes 1.1010: its body is 10 pips and total range 30 pips.",
+          "practice": "Identify the high, low, open, and close in the example.",
+          "caution": "One candle is insufficient evidence for a trading decision."
+        },
+        {
+          "id": "03.03",
+          "title": "Common Candlestick Patterns",
+          "status": "draft_review",
+          "takeaway": "Candlestick patterns need context",
+          "explanation": "Doji, engulfing, and pin-bar shapes describe how prices moved in a period. They do not guarantee reversals. Trend, nearby levels, volatility, and confirmation affect interpretation.",
+          "example": "A long upper wick near a prior high might show rejection, but could also reflect news volatility.",
+          "practice": "Explain why an engulfing candle alone is not a trading plan.",
+          "caution": "Pattern names do not provide a statistical edge without testing."
+        },
+        {
+          "id": "03.04",
+          "title": "Support and Resistance Zones",
+          "status": "draft_review",
+          "takeaway": "Support and resistance are zones not walls",
+          "explanation": "Support describes an area where buying previously appeared; resistance describes an area where selling previously appeared. Levels can fail or flip roles, and exact lines create false precision.",
+          "example": "A pair repeatedly pauses around 1.0800; mark a zone rather than assuming every touch reverses.",
+          "practice": "Describe what evidence would invalidate a support idea.",
+          "caution": "Repeated historical reactions do not ensure future reactions."
+        },
+        {
+          "id": "03.05",
+          "title": "Trend Direction and Market Structure",
+          "status": "draft_review",
+          "takeaway": "Trends are sequences of price swings",
+          "explanation": "An uptrend often has higher highs and higher lows; a downtrend often has lower highs and lower lows. Trends vary by timeframe and can end abruptly.",
+          "example": "Higher swing lows on a 4-hour chart may coexist with a short-term pullback on a 15-minute chart.",
+          "practice": "Define a higher low and identify a condition that would challenge an uptrend.",
+          "caution": "Trend labels are descriptive, not trade signals."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Risk and Responsible Practice",
+      "level": "Beginner",
+      "lessons": [
+        {
+          "id": "04.01",
+          "title": "Position Sizing and Pip Value",
+          "status": "draft_review",
+          "takeaway": "Position size follows a risk budget",
+          "explanation": "Risk per trade is a chosen fraction of hypothetical account equity. Position size depends on stop distance and pip value, which vary by pair and account currency. If minimum trade size violates the limit, skip.",
+          "example": "A $1,000 demo balance at 1% risk implies a $10 planned loss before slippage and costs.",
+          "practice": "Calculate 0.5% of a $600 demo balance.",
+          "caution": "A stop may fill worse than planned, increasing the loss."
+        },
+        {
+          "id": "04.02",
+          "title": "Stop-Loss Limitations and Slippage",
+          "status": "draft_review",
+          "takeaway": "Stop-losses limit intent not guaranteed loss",
+          "explanation": "A stop order expresses a planned exit, but gaps, thin liquidity, volatility, and broker execution can cause slippage. Consider both expected and stress-case losses.",
+          "example": "A stop at 1.0950 may fill at 1.0940 after a fast market move.",
+          "practice": "Explain why a planned $10 stop loss might become a larger loss.",
+          "caution": "Never describe a stop as a guaranteed maximum loss."
+        },
+        {
+          "id": "04.03",
+          "title": "Risk-to-Reward and Expectancy",
+          "status": "draft_review",
+          "takeaway": "Risk reward differs from expectancy",
+          "explanation": "Risk/reward compares a planned loss to a possible gain; expectancy also considers win probability and realized average wins and losses. A high reward target does not prove a strategy works.",
+          "example": "With 40% wins averaging $20 and 60% losses averaging $10, expectancy is $2 per trade before costs.",
+          "practice": "Compute expectancy for 50% wins of $10 and 50% losses of $10.",
+          "caution": "Past expectancy estimates can be unreliable with small samples."
+        },
+        {
+          "id": "04.04",
+          "title": "Drawdown and Risk of Ruin",
+          "status": "draft_review",
+          "takeaway": "Drawdown measures a decline from a peak",
+          "explanation": "Drawdown is the drop from a previous equity high. Losses compound: a 20% decline requires a 25% gain to return to the original value. Risk of ruin depends on edge, variance, sizing, and sequence.",
+          "example": "An account drops from $1,000 to $800: drawdown is 20%.",
+          "practice": "What percentage gain is needed to recover from $800 to $1,000?",
+          "caution": "Avoid assuming a short winning streak eliminates ruin risk."
+        },
+        {
+          "id": "04.05",
+          "title": "Writing a Beginner Demo-Trading Plan",
+          "status": "draft_review",
+          "takeaway": "A demo trading plan defines behavior",
+          "explanation": "A written plan identifies market, session, setup criteria, invalidation, sizing, maximum daily loss, journal fields, and review schedule. It should explicitly define when to stand aside.",
+          "example": "A plan might cap simulated risk at 0.5% per idea and pause after two rule violations; this is an illustration, not a recommendation.",
+          "practice": "Write your own entry, invalidation, and no-trade conditions.",
+          "caution": "Plans should be evaluated in demo before risking money."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Price Action and Confirmation",
+      "level": "Intermediate",
+      "lessons": [
+        {
+          "id": "05.01",
+          "title": "Swing Highs and Lows",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "Label swing highs and lows on a 20-candle chart; distinguish a higher low from a random bounce.",
+            "scenario": "A higher high alone does not establish a persistent uptrend.",
+            "practice": "Annotate three successive highs and lows, then state what would invalidate your interpretation.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "A swing high is a local peak surrounded by lower highs; a swing low is a local trough. The lookback rule must be defined before testing. Higher highs and higher lows suggest an uptrend, but one higher high alone is insufficient.",
+          "example": "Example highs 1.0900, 1.0950, 1.0990 and lows 1.0800, 1.0840, 1.0880 suggest rising structure. A break below 1.0880 weakens the latest higher-low thesis.",
+          "knowledge_check": {
+            "question": "What best supports an uptrend?",
+            "choices": [
+              "One large bullish candle",
+              "A sequence of higher highs and higher lows",
+              "A single new high"
+            ],
+            "correct_index": 1,
+            "rationale": "A swing high is a local peak surrounded by lower highs; a swing low is a local trough."
+          },
+          "practice": "Annotate three successive highs and lows, then state what would invalidate your interpretation.",
+          "caution": "Educational simulated example. Not financial advice or a prediction. No completion credit in this preview."
+        },
+        {
+          "id": "05.02",
+          "title": "Breakouts and False Breakouts",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "Define a breakout as a close beyond a pre-marked zone, not merely a wick.",
+            "scenario": "A brief move above resistance that returns inside the range may be a false breakout.",
+            "practice": "Compare two hypothetical breakout candles and write an entry filter.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "Mark a resistance zone before price approaches it. A breakout rule might require a candle close beyond the zone and a minimum buffer; a wick beyond it is not proof. False breakouts return into the prior range.",
+          "example": "If resistance is 1.1050–1.1060, a candle wicking to 1.1070 but closing at 1.1045 fails a close-above-zone rule. Record spreads and slippage.",
+          "knowledge_check": {
+            "question": "Which observation satisfies a close-above-zone breakout rule?",
+            "choices": [
+              "A wick above and close inside",
+              "A close above the marked upper boundary",
+              "Any touch of resistance"
+            ],
+            "correct_index": 1,
+            "rationale": "Mark a resistance zone before price approaches it."
+          },
+          "practice": "Compare two hypothetical breakout candles and write an entry filter.",
+          "caution": "Educational simulated example. Not financial advice or a prediction. No completion credit in this preview."
+        },
+        {
+          "id": "05.03",
+          "title": "Pullbacks and Retests",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "A pullback retraces part of a prior move; a retest revisits a broken zone.",
+            "scenario": "Price can break a level and then retest it from the other side, but not always.",
+            "practice": "Draw an invalidation level for a retest idea.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "A pullback is a temporary move against the prevailing direction; a retest revisits a previously identified zone. The market is not obligated to retest. Define the retest zone and invalidation before entering.",
+          "example": "After a close above 1.1100, price dips to 1.1098 and closes back above 1.1100. That is one possible retest scenario, not a guaranteed setup.",
+          "knowledge_check": {
+            "question": "What makes a retest rule testable?",
+            "choices": [
+              "A pre-defined zone and invalidation",
+              "A feeling that price will bounce",
+              "Moving the zone after entry"
+            ],
+            "correct_index": 0,
+            "rationale": "A pullback is a temporary move against the prevailing direction; a retest revisits a previously identified zone."
+          },
+          "practice": "Draw an invalidation level for a retest idea.",
+          "caution": "Educational simulated example. Not financial advice or a prediction. No completion credit in this preview."
+        },
+        {
+          "id": "05.04",
+          "title": "Multi-Timeframe Alignment",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "Use a higher timeframe to describe context and a lower timeframe to locate a setup.",
+            "scenario": "A 15-minute rally can occur inside a daily downtrend.",
+            "practice": "Write down what each timeframe contributes and how you handle disagreement.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "Higher timeframes provide context; lower timeframes provide entry detail. Define the roles in advance to avoid changing the timeframe until a desired signal appears. Alignment does not remove risk.",
+          "example": "A 4-hour chart shows an uptrend, while a 15-minute chart pulls back. A trader may wait for a defined 15-minute confirmation but still honor the 4-hour invalidation.",
+          "knowledge_check": {
+            "question": "Which process avoids timeframe cherry-picking?",
+            "choices": [
+              "Switch until a buy signal appears",
+              "Define context and entry timeframes before reviewing",
+              "Ignore higher-timeframe structure"
+            ],
+            "correct_index": 1,
+            "rationale": "Higher timeframes provide context; lower timeframes provide entry detail."
+          },
+          "practice": "Write down what each timeframe contributes and how you handle disagreement.",
+          "caution": "Educational simulated example. Not financial advice or a prediction. No completion credit in this preview."
+        },
+        {
+          "id": "05.05",
+          "title": "Defining Entry and Invalidation",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "Separate entry triggers from invalidation rules and stop placement.",
+            "scenario": "A long idea above support is invalidated if its supporting thesis fails.",
+            "practice": "Create a three-line entry, invalidation, and no-trade checklist.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "A complete entry rule states setup, trigger, stop placement, position sizing, exit and invalidation. Invalidation is the market observation that makes the original idea no longer supported; it should not be moved just to avoid taking a loss.",
+          "example": "Example: buy only after a close above a marked range, stop below the defined structure, risk no more than 1% of demo equity. Include spread in the sizing calculation.",
+          "knowledge_check": {
+            "question": "What belongs in a complete entry plan?",
+            "choices": [
+              "Only a price target",
+              "Trigger, invalidation, sizing and exit",
+              "A promise the trade will win"
+            ],
+            "correct_index": 1,
+            "rationale": "A complete entry rule states setup, trigger, stop placement, position sizing, exit and invalidation."
+          },
+          "practice": "Create a three-line entry, invalidation, and no-trade checklist.",
+          "caution": "Educational simulated example. Not financial advice or a prediction. No completion credit in this preview."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Indicators and Technical Context",
+      "level": "Intermediate",
+      "lessons": [
+        {
+          "id": "06.01",
+          "title": "Moving Averages",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "Moving averages summarize past prices and react with delay.",
+            "scenario": "A 20-period average may cross a 50-period average after much of a move occurred.",
+            "practice": "Compare a trend and a range; describe one false signal.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "A simple moving average averages a fixed number of closes; an exponential moving average gives greater weight to recent prices. Both lag price and may whipsaw in ranges. Define periods before backtesting.",
+          "example": "A 20-period average crossing above a 50-period average is a lagging observation, not evidence of future profit. Compare behavior in a trend and a sideways market.",
+          "knowledge_check": {
+            "question": "What is a limitation of moving averages?",
+            "choices": [
+              "They predict the next candle",
+              "They can lag and whipsaw",
+              "They remove transaction costs"
+            ],
+            "correct_index": 1,
+            "rationale": "A simple moving average averages a fixed number of closes; an exponential moving average gives greater weight to recent prices."
+          },
+          "practice": "Compare a trend and a range; describe one false signal.",
+          "caution": "Educational simulated example. Not financial advice or a prediction. No completion credit in this preview."
+        },
+        {
+          "id": "06.02",
+          "title": "Momentum and RSI",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "RSI is a bounded momentum indicator; extreme readings are not automatic reversals.",
+            "scenario": "An RSI above 70 may persist during a strong trend.",
+            "practice": "Write a momentum confirmation rule that does not rely on RSI alone.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "RSI measures the balance of recent upward and downward price changes, typically on a 0–100 scale. Above 70 or below 30 is not an automatic sell or buy signal; strong trends can sustain extreme readings.",
+          "example": "If RSI stays above 70 while price keeps making higher highs, selling every reading above 70 could produce repeated losses. Add price structure and risk rules.",
+          "knowledge_check": {
+            "question": "What does RSI above 70 guarantee?",
+            "choices": [
+              "An immediate reversal",
+              "Nothing about the next move",
+              "A profitable short trade"
+            ],
+            "correct_index": 1,
+            "rationale": "RSI measures the balance of recent upward and downward price changes, typically on a 0–100 scale."
+          },
+          "practice": "Write a momentum confirmation rule that does not rely on RSI alone.",
+          "caution": "Educational simulated example. Not financial advice or a prediction. No completion credit in this preview."
+        },
+        {
+          "id": "06.03",
+          "title": "ATR and Volatility",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "ATR estimates recent price variability, not direction.",
+            "scenario": "An ATR of 0.0080 on EUR/USD represents about 80 pips of recent true range.",
+            "practice": "Explain how changing volatility affects a fixed stop.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "Average True Range (ATR) summarizes recent trading range and includes gaps in true range. It measures volatility, not direction. A wider ATR-based stop requires a smaller position to keep dollar risk constant.",
+          "example": "With $100 planned risk and a stop of 50 pips, size must be half that of a 25-pip stop if pip value per unit is unchanged. Include costs.",
+          "knowledge_check": {
+            "question": "If stop distance doubles while dollar risk stays fixed, position size should:",
+            "choices": [
+              "Double",
+              "Stay the same",
+              "Halve"
+            ],
+            "correct_index": 2,
+            "rationale": "Average True Range (ATR) summarizes recent trading range and includes gaps in true range."
+          },
+          "practice": "Explain how changing volatility affects a fixed stop.",
+          "caution": "Educational simulated example. Not financial advice or a prediction. No completion credit in this preview."
+        },
+        {
+          "id": "06.04",
+          "title": "Indicators in Ranging Markets",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "Oscillators and trend indicators can conflict during sideways conditions.",
+            "scenario": "A moving-average crossover can whipsaw repeatedly in a narrow range.",
+            "practice": "Define a range filter and a reason to avoid trading.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "Range-bound markets oscillate between areas of support and resistance without persistent directional structure. Trend-following crossovers can whipsaw; an oscillator may also remain extreme longer than expected. Classify regime using an explicit rule.",
+          "example": "A 20/50 moving-average crossover may repeatedly reverse inside a narrow 30-pip range. Review after-cost performance separately for trend and range samples.",
+          "knowledge_check": {
+            "question": "What is a reasonable response to repeated range whipsaws?",
+            "choices": [
+              "Test performance by market regime",
+              "Increase leverage to recover",
+              "Assume the next crossover must win"
+            ],
+            "correct_index": 0,
+            "rationale": "Range-bound markets oscillate between areas of support and resistance without persistent directional structure."
+          },
+          "practice": "Define a range filter and a reason to avoid trading.",
+          "caution": "Educational simulated example. Not financial advice or a prediction. No completion credit in this preview."
+        },
+        {
+          "id": "06.05",
+          "title": "Avoiding Indicator Overfitting",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "Too many indicator settings create a risk of fitting historical noise.",
+            "scenario": "A parameter combination that perfectly matches 15 old trades may fail tomorrow.",
+            "practice": "Pick one indicator and pre-register its settings before testing.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "Overfitting occurs when strategy settings match historical noise instead of a durable pattern. Searching many combinations and reporting only the best inflates apparent performance. Separate training and out-of-sample periods.",
+          "example": "A 17-period average selected from 500 tests may look exceptional in-sample but fail on later data. Record all tested variants and assess sensitivity to nearby settings.",
+          "knowledge_check": {
+            "question": "Which approach helps detect overfitting?",
+            "choices": [
+              "Optimize and evaluate on the same candles",
+              "Test on unseen data and nearby parameters",
+              "Hide losing backtests"
+            ],
+            "correct_index": 1,
+            "rationale": "Overfitting occurs when strategy settings match historical noise instead of a durable pattern."
+          },
+          "practice": "Pick one indicator and pre-register its settings before testing.",
+          "caution": "Educational simulated example. Not financial advice or a prediction. No completion credit in this preview."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Strategy Development",
+      "level": "Intermediate",
+      "lessons": [
+        {
+          "id": "07.01",
+          "title": "Rules-Based Day Trading",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "A day-trading plan must define hours, setup, risk and a daily stop rule.",
+            "scenario": "A rule might require a trend filter and no major news event within 15 minutes.",
+            "practice": "Draft a five-item checklist with a no-trade condition.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "A rules-based day-trading plan specifies when a simulated session begins and ends, which pair and timeframe to observe, what counts as a setup, how to enter and exit, and when to stop. A clear no-trade rule is as important as an entry rule. The trader should record scheduled announcements and estimate the bid/ask spread before any hypothetical order. Frequent trades increase exposure to transaction costs; there is no obligation to trade every session.",
+          "example": "A fictional EUR/USD plan observes 9:00–11:00 local time. It only considers a demo trade after a 15-minute candle closes outside a previously marked range, with a pre-set invalidation and a simulated risk cap. It skips the session if a high-impact event falls within its predefined exclusion window. The example is a testable rule, not a recommendation.",
+          "practice": "Write a five-question yes/no checklist covering session, setup, spread, invalidation, and daily stop. Add a condition that forces a no-trade decision.",
+          "knowledge_check": {
+            "question": "Which statement makes a day-trading plan testable?",
+            "choices": [
+              "Trade whenever the chart looks exciting",
+              "Specify hours, setup, risk, and a no-trade condition",
+              "Increase frequency after a loss"
+            ],
+            "correct_index": 1,
+            "rationale": "Explicit rules can be recorded and checked consistently."
+          },
+          "caution": "Editorial educational draft using fictional examples only. No investment advice, predicted returns, grades, completion credit, or automatic course unlocks."
+        },
+        {
+          "id": "07.02",
+          "title": "Rules-Based Swing Trading",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "Swing trading holds positions longer and carries overnight/event exposure.",
+            "scenario": "A stop order can execute worse than planned after a weekend gap.",
+            "practice": "Write a swing plan with holding window and event-risk controls.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "Swing trading observes price movement over days rather than minutes. It may involve overnight financing, weekend gaps, and unexpected news while the market is closed. A swing plan should define a holding window, the higher-timeframe thesis, an invalidation level, event exposure, and the maximum planned demo risk. A stop order is not a guarantee of the exit price.",
+          "example": "A fictional swing idea identifies an upward structure on a daily chart and waits for a pullback to a pre-marked zone. The trader writes down the invalidation level and checks whether a central-bank announcement or weekend closure occurs before the planned exit. A gap through the stop could cause a larger-than-planned loss.",
+          "practice": "Draft a one-page swing-trade observation plan with timeframe, holding period, planned stop, overnight risks, and two reasons to stand aside.",
+          "knowledge_check": {
+            "question": "What additional risk is especially relevant to swing trading?",
+            "choices": [
+              "Weekend price gaps",
+              "Guaranteed fills at the stop",
+              "No need for a journal"
+            ],
+            "correct_index": 0,
+            "rationale": "Longer holding periods can expose positions to events and market closures."
+          },
+          "caution": "Editorial educational draft using fictional examples only. No investment advice, predicted returns, grades, completion credit, or automatic course unlocks."
+        },
+        {
+          "id": "07.03",
+          "title": "Trade Setup Checklists",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "A checklist prevents improvised decisions and enables consistent review.",
+            "scenario": "Two identical chart setups should lead to the same planned action under the rules.",
+            "practice": "Write five yes/no questions that must be satisfied before a demo trade.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "A setup checklist translates a trading hypothesis into observable criteria. Each item should be answerable before the decision, rather than revised after the outcome. Include market context, entry trigger, invalidation, position size, transaction costs, and no-trade conditions. A checklist improves consistency but does not make a strategy profitable.",
+          "example": "A fictional breakout checklist requires: (1) a resistance zone marked in advance, (2) a candle close beyond the upper boundary, (3) spread below a predetermined limit, (4) a defined invalidation level, and (5) a position size inside the demo risk budget. If any requirement fails, the setup is skipped.",
+          "practice": "Create five binary checklist questions. Test them against two invented charts, one qualifying and one not. Explain why each decision follows the written rules.",
+          "knowledge_check": {
+            "question": "If a setup fails one required checklist item, what should happen?",
+            "choices": [
+              "Ignore the item after seeing the outcome",
+              "Skip the setup under the existing rules",
+              "Double the position size"
+            ],
+            "correct_index": 1,
+            "rationale": "A required rule must remain required to make observations comparable."
+          },
+          "caution": "Editorial educational draft using fictional examples only. No investment advice, predicted returns, grades, completion credit, or automatic course unlocks."
+        },
+        {
+          "id": "07.04",
+          "title": "Backtesting with Realistic Costs",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "Backtests need bid/ask costs, slippage assumptions and realistic entry timing.",
+            "scenario": "A gross 4-pip average edge can disappear after a 3-pip total cost.",
+            "practice": "Calculate net expectancy under two plausible cost scenarios.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "Backtesting applies written rules to historical data while trying to reproduce what could have been known at the time. A realistic test must account for spread, commissions, slippage assumptions, entry timing, and missing or poor-quality data. Avoid look-ahead bias: do not use a candle closing price to claim an earlier fill that could not have been known. Keep a separate period for evaluation after choosing the rules.",
+          "example": "Suppose a fictional strategy averages 4 pips gross per trade. If spread, commission, and modeled slippage total 3 pips, the estimated net is only 1 pip per trade before any other expenses. If costs rise to 5 pips, the same gross result becomes a 1-pip net loss. These averages do not establish future profitability.",
+          "practice": "Calculate net results for 10 hypothetical trades with 4 pips gross each under cost assumptions of 1, 3, and 5 pips per trade. Explain why testing only the lowest-cost scenario is misleading.",
+          "knowledge_check": {
+            "question": "A backtest reports 4 pips gross and 5 pips in total costs per trade. Estimated net is:",
+            "choices": [
+              "+9 pips",
+              "+1 pip",
+              "−1 pip"
+            ],
+            "correct_index": 2,
+            "rationale": "Net result equals gross result minus all modeled trading costs."
+          },
+          "caution": "Editorial educational draft using fictional examples only. No investment advice, predicted returns, grades, completion credit, or automatic course unlocks."
+        },
+        {
+          "id": "07.05",
+          "title": "Forward Testing on Demo",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "Forward testing applies frozen rules to unseen demo conditions.",
+            "scenario": "Changing the strategy every day prevents a fair evaluation.",
+            "practice": "Design a 20-observation demo protocol with review dates.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "Forward testing means applying previously written rules to new demo observations without changing the rules after each outcome. Record both qualifying and skipped setups, realistic costs, execution differences, and rule adherence. Choose the observation count and review date in advance. A small sample is useful for learning process discipline but cannot establish a durable edge.",
+          "example": "A fictional trader commits to observing 20 qualifying demo setups with fixed entry, exit, and no-trade rules. After observation 8, the results look disappointing. Rather than quietly changing the rule, the trader finishes or formally ends the test, documents the reason, and starts a separate test if revisions are needed.",
+          "practice": "Design a 20-observation demo protocol: pair, session, rules version, journal fields, review date, and conditions for stopping the experiment early.",
+          "knowledge_check": {
+            "question": "Why should forward-test rules remain fixed during an observation sample?",
+            "choices": [
+              "To make outcomes comparable",
+              "To guarantee profitability",
+              "To avoid recording losing trades"
+            ],
+            "correct_index": 0,
+            "rationale": "Changing rules during a test makes it difficult to evaluate one consistent approach."
+          },
+          "caution": "Editorial educational draft using fictional examples only. No investment advice, predicted returns, grades, completion credit, or automatic course unlocks."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Trade Review and Psychology",
+      "level": "Intermediate",
+      "lessons": [
+        {
+          "id": "08.01",
+          "title": "Building a Trade Journal",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "A journal captures planned risk, execution, costs, emotions and rule adherence.",
+            "scenario": "A winning trade can still violate a risk rule.",
+            "practice": "Create fields for setup, entry, stop, size, exit, cost and lesson learned.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "A trading journal records both the decision process and the outcome. Useful fields include date and time, pair, timeframe, setup version, entry, stop, target, size, expected and actual costs, exit, planned risk, rule adherence, and emotions. Journal every relevant observation, including skipped setups. A profitable result can still come from a poor decision process.",
+          "example": "A fictional demo trade earns $12 but breaks the written maximum-risk rule. The journal records the positive result and separately flags the process violation. A different trade loses $8 while following every rule; its financial outcome is negative but its process adherence is strong.",
+          "practice": "Build a journal template with at least ten fields. Fill in one simulated win, one simulated loss, and one skipped trade. Rate whether each followed the rules.",
+          "knowledge_check": {
+            "question": "Which trade should be flagged as a process problem?",
+            "choices": [
+              "A rule-following loss",
+              "A profitable trade that broke the risk limit",
+              "A skipped trade that failed the checklist"
+            ],
+            "correct_index": 1,
+            "rationale": "Outcome and process adherence must be evaluated separately."
+          },
+          "caution": "Editorial educational draft using fictional examples only. No investment advice, predicted returns, grades, completion credit, or automatic course unlocks."
+        },
+        {
+          "id": "08.02",
+          "title": "Measuring Win Rate and Payoff",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "Win rate alone is insufficient; compare average win with average loss.",
+            "scenario": "A 40% win rate with 2R average wins and 1R losses has positive gross expectancy.",
+            "practice": "Compute expectancy for 10 hypothetical trades, including costs.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "Win rate is the fraction of closed trades that finish as wins. Payoff compares the size of average wins with average losses. Neither measure alone describes a strategy. Gross expectancy per trade is win probability times average win minus loss probability times average loss. Costs must then be accounted for consistently, without subtracting them twice if results are already net.",
+          "example": "In 10 fictional trades, four winners average +$20 and six losers average −$10. Gross expectancy is 0.4 × $20 − 0.6 × $10 = +$2 per trade. If an additional $3 average cost applies to every trade and was not included in those results, net expectancy is −$1 per trade.",
+          "practice": "Calculate gross expectancy for a 50% win rate, $15 average win, and $10 average loss. Then subtract a hypothetical $3 per-trade cost. State whether the resulting estimate is positive or negative.",
+          "knowledge_check": {
+            "question": "Can a strategy with a 40% win rate have positive gross expectancy?",
+            "choices": [
+              "Yes, if average wins sufficiently exceed losses",
+              "No, a win rate below 50% always loses",
+              "Only if stops guarantee fills"
+            ],
+            "correct_index": 0,
+            "rationale": "Average win size and average loss size matter alongside win rate."
+          },
+          "caution": "Editorial educational draft using fictional examples only. No investment advice, predicted returns, grades, completion credit, or automatic course unlocks."
+        },
+        {
+          "id": "08.03",
+          "title": "Expectancy and Sample Size",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "Small samples create wide uncertainty about any observed edge.",
+            "scenario": "Six wins in ten trades do not establish a reliable 60% future win rate.",
+            "practice": "List three reasons to gather more observations before changing rules.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "Observed expectancy from a small sample is highly uncertain. A few wins can occur by chance, and results can depend on market regime, costs, and trade sequence. Predefine how many observations you will collect, include all qualifying setups, and review variability rather than declaring success from a short streak. Out-of-sample observations help detect overfitting, but no sample guarantees future returns.",
+          "example": "A fictional demo test wins six of its first ten trades. That observed 60% win rate does not establish a reliable future 60% win probability. If the next ten include only three wins, the combined record is nine wins out of twenty, or 45%.",
+          "practice": "Compare a sample of 6 wins in 10 trades with 9 wins in 20 trades. Explain three reasons the estimate changed and what other metrics you would need.",
+          "knowledge_check": {
+            "question": "What does six wins in ten demo trades prove?",
+            "choices": [
+              "A guaranteed 60% future win rate",
+              "Only an observed 60% rate in that small sample",
+              "That transaction costs are irrelevant"
+            ],
+            "correct_index": 1,
+            "rationale": "A small observed sample cannot guarantee a future win probability."
+          },
+          "caution": "Editorial educational draft using fictional examples only. No investment advice, predicted returns, grades, completion credit, or automatic course unlocks."
+        },
+        {
+          "id": "08.04",
+          "title": "Emotional Discipline and Decision Biases",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "Loss aversion, recency bias and revenge trading can distort decisions.",
+            "scenario": "A trader doubles position size after a loss to try to recover immediately.",
+            "practice": "Write a cooldown and maximum-loss rule for a demo session.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "Loss aversion, recency bias, fear of missing out, and revenge trading can pull decisions away from written rules. A disciplined demo process defines maximum daily loss, maximum rule violations, a cooldown, and a post-session review. These safeguards reduce impulsive decisions but do not eliminate uncertainty. Students should practice noticing emotions without treating them as trade signals.",
+          "example": "After two fictional losses, a student feels tempted to double the next demo position to recover quickly. The written plan requires stopping for the session after two rule violations or reaching the daily risk limit. The correct process response is to pause and document the urge, not increase exposure.",
+          "practice": "Write a personal demo-session stop rule, a five-minute cooldown routine, and a journal prompt for identifying a decision made from frustration or urgency.",
+          "knowledge_check": {
+            "question": "What is a sensible response to revenge-trading impulses?",
+            "choices": [
+              "Increase size to recover faster",
+              "Pause and follow a prewritten limit",
+              "Remove the stop loss"
+            ],
+            "correct_index": 1,
+            "rationale": "A predefined pause interrupts impulsive risk escalation."
+          },
+          "caution": "Editorial educational draft using fictional examples only. No investment advice, predicted returns, grades, completion credit, or automatic course unlocks."
+        },
+        {
+          "id": "08.05",
+          "title": "Intermediate Strategy Review Capstone",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "A strategy review evaluates evidence and documents revisions before retesting.",
+            "scenario": "A positive gross return with negative net return requires reconsidering costs.",
+            "practice": "Summarize 20 hypothetical trades: adherence, expectancy and next experiment.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "A strategy review combines outcome data with process evidence. Evaluate the number of observations, gross and net expectancy, win rate, average win/loss, drawdown, transaction costs, and rule adherence. Identify uncertainties and propose one documented change at a time, followed by a new test. A positive short-term result is not proof that a strategy is ready for live trading.",
+          "example": "A fictional 20-trade demo sample shows +$30 gross but −$10 after costs, with 70% checklist adherence. The review identifies two separate problems: trading costs exceed the gross edge, and execution discipline is inconsistent. It recommends further demo testing after clearly documenting any rule changes.",
+          "practice": "Prepare a one-page capstone report for 20 invented demo trades. Include sample size, costs, net expectancy, adherence, limitations, and the next experiment.",
+          "knowledge_check": {
+            "question": "A strategy is positive before costs but negative after costs. What should a review conclude?",
+            "choices": [
+              "The gross result proves a profitable edge",
+              "Costs must be addressed and the strategy retested",
+              "Ignore costs because the trades were simulated"
+            ],
+            "correct_index": 1,
+            "rationale": "After-cost results are essential when assessing a trading method."
+          },
+          "caution": "Editorial educational draft using fictional examples only. No investment advice, predicted returns, grades, completion credit, or automatic course unlocks."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Macro and Market Dynamics",
+      "level": "Advanced",
+      "lessons": [
+        {
+          "id": "09.01",
+          "title": "Central Banks and Interest Rates",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "Central-bank policy rates can influence relative currency attractiveness.",
+            "scenario": "An unexpected rate announcement can change both exchange rates and volatility.",
+            "practice": "Describe two ways market expectations differ from the announced rate.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "**Policy rates and exchange rates.** Central banks influence short-term interest rates and expectations about future borrowing costs. Currency prices respond to *changes relative to what markets expected*, not simply to whether a rate rose or fell. Compare both countries in a currency pair and distinguish a policy decision from the accompanying statement.",
+          "example": "A fictional central bank raises rates 0.25 percentage points, but traders expected 0.50. Its currency could weaken because the decision was less restrictive than anticipated.",
+          "practice": "Write down the actual decision, consensus expectation, previous decision, and the currency response. Explain two competing interpretations.",
+          "knowledge_check": {
+            "question": "Which is most relevant to the immediate market reaction?",
+            "choices": [
+              "The announced rate alone",
+              "The decision relative to expectations",
+              "The currency with the higher nominal rate"
+            ],
+            "correct_index": 1,
+            "rationale": "Surprises and guidance often matter more than the headline rate."
+          },
+          "caution": "Advanced editorial preview. Synthetic scenarios only; not financial advice, a live trading signal, or evidence of future performance. No completion credit or unlock changes."
+        },
+        {
+          "id": "09.02",
+          "title": "Inflation, Employment, and GDP",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "Inflation, jobs and output data inform policy expectations but are noisy.",
+            "scenario": "A strong employment release can still weaken a currency if expectations were stronger.",
+            "practice": "Contrast actual data, consensus forecast and prior revision.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "**Reading economic releases in context.** Inflation, employment, and GDP releases can shift expectations about policy and economic growth. Separate the reported value, the consensus forecast, revisions to prior data, and the initial market reaction. Strong economic data does not guarantee currency strength because expectations and risk sentiment may dominate.",
+          "example": "Fictional payroll growth is 180,000 against a 220,000 forecast, while the prior month is revised upward. Traders must interpret both pieces rather than label the report simply strong or weak.",
+          "practice": "Create a four-column comparison: forecast, actual, revision, and possible policy implication. List why the market might react differently than expected.",
+          "knowledge_check": {
+            "question": "Why can apparently strong data weaken a currency?",
+            "choices": [
+              "Because the result may fall short of expectations",
+              "Because GDP always reduces rates",
+              "Because data determines the next price"
+            ],
+            "correct_index": 0,
+            "rationale": "The surprise relative to expectations can matter more than the absolute value."
+          },
+          "caution": "Advanced editorial preview. Synthetic scenarios only; not financial advice, a live trading signal, or evidence of future performance. No completion credit or unlock changes."
+        },
+        {
+          "id": "09.03",
+          "title": "Economic Calendars and Event Risk",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "Economic calendars identify scheduled releases, not predictable price direction.",
+            "scenario": "Spread and slippage may rise around a major central-bank decision.",
+            "practice": "Build a no-trade buffer around a scheduled high-impact event.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "**Preparing for scheduled news risk.** An economic calendar identifies *when* releases occur and their expected importance, not the direction of the next move. Major announcements can cause gaps, spread widening, delayed fills, and price whipsaws. Convert release times to the correct local timezone and account for daylight saving changes.",
+          "example": "A fictional policy decision is scheduled for 2:00 p.m. New York time. A demo plan prohibits new entries 15 minutes before and 15 minutes after; the window is a sample rule, not a safety guarantee.",
+          "practice": "Choose one fictional release and write a calendar checklist: timezone, forecast, prior result, no-trade window, and post-event observation.",
+          "knowledge_check": {
+            "question": "What can an economic calendar reliably provide?",
+            "choices": [
+              "Guaranteed direction",
+              "Scheduled event time and context",
+              "Guaranteed spread"
+            ],
+            "correct_index": 1,
+            "rationale": "Calendars help plan around known event times, not forecast outcomes."
+          },
+          "caution": "Advanced editorial preview. Synthetic scenarios only; not financial advice, a live trading signal, or evidence of future performance. No completion credit or unlock changes."
+        },
+        {
+          "id": "09.04",
+          "title": "Currency Correlations",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "Currency pairs can share exposure through a common currency.",
+            "scenario": "Long EUR/USD and short USD/CHF may both express USD weakness.",
+            "practice": "Map base/quote exposure across three hypothetical positions.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "**Mapping shared currency exposure.** Two currency pairs can move together because they share a base or quote currency. Correlation is a measured historical relationship that changes over time. A portfolio can have concentrated USD exposure even if it contains different pair names. Write each position as long one currency and short the other before estimating combined risk.",
+          "example": "Long EUR/USD means long EUR and short USD. Short USD/CHF means short USD and long CHF. Both express some USD weakness exposure, so losses may arrive together.",
+          "practice": "Break down three fictional positions into long/short currency exposures. Identify overlapping USD exposure and one reason correlation could change.",
+          "knowledge_check": {
+            "question": "Which pair of positions may share USD-weakness exposure?",
+            "choices": [
+              "Long EUR/USD and short USD/CHF",
+              "Long EUR/USD and long USD/CHF",
+              "No currency pairs can overlap"
+            ],
+            "correct_index": 0,
+            "rationale": "Both positions in the first choice are short USD."
+          },
+          "caution": "Advanced editorial preview. Synthetic scenarios only; not financial advice, a live trading signal, or evidence of future performance. No completion credit or unlock changes."
+        },
+        {
+          "id": "09.05",
+          "title": "Liquidity and Volatility Regimes",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "Market regimes change: quiet range, trend, high-volatility event periods.",
+            "scenario": "A strategy tuned to a quiet range may fail during a sudden volatility expansion.",
+            "practice": "Define observable rules for classifying two regimes.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "**Classifying market conditions.** Market conditions vary between quiet ranges, sustained trends, and event-driven volatility. A method that seems effective in one regime may fail in another. Define observable criteria such as range width, average true range, or directional swing structure *before* reviewing outcomes. Avoid declaring a regime after seeing whether a trade won.",
+          "example": "A fictional EUR/USD series spends ten sessions in a narrow range, then its daily range doubles after news. A strategy tested only in the quiet sample may not transfer to the new conditions.",
+          "practice": "Create a simple two-regime classifier using historical range width and price structure; write one no-trade rule for ambiguous conditions.",
+          "knowledge_check": {
+            "question": "Why separate strategy results by market regime?",
+            "choices": [
+              "To guarantee future profit",
+              "To see whether behavior changes across conditions",
+              "To avoid recording losses"
+            ],
+            "correct_index": 1,
+            "rationale": "Different conditions can produce different costs, volatility, and outcomes."
+          },
+          "caution": "Advanced editorial preview. Synthetic scenarios only; not financial advice, a live trading signal, or evidence of future performance. No completion credit or unlock changes."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Advanced Risk Management",
+      "level": "Advanced",
+      "lessons": [
+        {
+          "id": "10.01",
+          "title": "Portfolio and Correlated Exposure",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "Aggregate risk across correlated positions rather than counting trades alone.",
+            "scenario": "Two 1%-risk trades can produce a larger combined loss if they move together.",
+            "practice": "Create a portfolio-level risk cap for three simultaneous demo trades.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "**Risk across simultaneous positions.** Portfolio risk is not just the risk assigned to each trade. Positions can share currency exposure and lose together, especially during broad market events. Assess aggregate planned loss, correlated exposure, leverage, and adverse scenarios before adding another demo position. Correlation estimates are imperfect and can change abruptly.",
+          "example": "Three fictional positions each plan to risk $10. If a single USD event moves all three against the trader, combined planned loss is $30 before slippage, even though each position seems small.",
+          "practice": "Create a three-position exposure table with currency direction, planned loss, and a simultaneous-loss stress case.",
+          "knowledge_check": {
+            "question": "What should be checked before adding a correlated position?",
+            "choices": [
+              "Only the new trade’s target",
+              "Combined exposure and possible simultaneous loss",
+              "Whether the previous trade won"
+            ],
+            "correct_index": 1,
+            "rationale": "Risk management considers aggregate exposure, not isolated trade labels."
+          },
+          "caution": "Advanced editorial preview. Synthetic scenarios only; not financial advice, a live trading signal, or evidence of future performance. No completion credit or unlock changes."
+        },
+        {
+          "id": "10.02",
+          "title": "Volatility-Based Sizing",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "Sizing by volatility aims to normalize risk, not forecast returns.",
+            "scenario": "A wider ATR-based stop generally requires a smaller position for fixed dollar risk.",
+            "practice": "Compute position sizes for 20-pip and 40-pip stops at equal risk.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "**Adjusting size when volatility changes.** A fixed dollar risk budget implies smaller position sizes when the stop distance grows, assuming pip value per unit remains the same. ATR can help describe recent volatility but does not prescribe a correct stop or forecast price direction. Always check contract units, quote currency, broker minimum size, spread, and execution risk.",
+          "example": "For a fictional $20 risk budget and $0.10 per pip per unit of position, a 20-pip stop permits 10 units; a 40-pip stop permits 5 units. The example units are illustrative and not standard forex lot sizes.",
+          "practice": "Using a $15 planned risk budget and $0.05 per pip per unit, calculate size for 15-pip and 30-pip stops. State when to skip a trade.",
+          "knowledge_check": {
+            "question": "If stop distance doubles and dollar risk stays fixed, size generally should:",
+            "choices": [
+              "Double",
+              "Halve",
+              "Remain unchanged"
+            ],
+            "correct_index": 1,
+            "rationale": "Wider stops require smaller exposure for the same planned dollar risk."
+          },
+          "caution": "Advanced editorial preview. Synthetic scenarios only; not financial advice, a live trading signal, or evidence of future performance. No completion credit or unlock changes."
+        },
+        {
+          "id": "10.03",
+          "title": "Gap Risk and Tail Events",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "Tail events and price gaps can exceed modeled stop-loss assumptions.",
+            "scenario": "A weekend event can open the market beyond a planned stop.",
+            "practice": "Describe stress losses at 1x, 2x and 3x the intended stop distance.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "**Recognizing gaps and extreme outcomes.** Market prices can jump across levels during news, weekends, or thin liquidity. A stop order is an instruction, not a guaranteed execution price. Tail events are uncommon but potentially severe; stress tests should include losses beyond the planned stop and consider margin calls or negative balances where applicable.",
+          "example": "A fictional long trade plans a 25-pip stop but exits after a 70-pip gap. At an assumed $0.20 per pip, planned loss was $5 while realized loss is $14 before other costs.",
+          "practice": "Calculate losses at 1×, 2×, and 3× a 25-pip planned stop using a fictional $0.20/pip position. Write a rule for weekend exposure.",
+          "knowledge_check": {
+            "question": "Which statement about stop orders is accurate?",
+            "choices": [
+              "They guarantee a maximum loss",
+              "They can execute worse than the trigger",
+              "They remove gap risk"
+            ],
+            "correct_index": 1,
+            "rationale": "Gaps and slippage can cause losses larger than planned."
+          },
+          "caution": "Advanced editorial preview. Synthetic scenarios only; not financial advice, a live trading signal, or evidence of future performance. No completion credit or unlock changes."
+        },
+        {
+          "id": "10.04",
+          "title": "Risk Limits and Circuit Breakers",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "Circuit breakers specify when to stop taking risk.",
+            "scenario": "A daily drawdown limit triggers a pause even if the next setup looks attractive.",
+            "practice": "Write daily and weekly stop conditions with review steps.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "**Defining automatic pause conditions.** A circuit breaker is a prewritten rule that stops further demo trading when a risk threshold or process failure occurs. Rules may cover daily loss, weekly drawdown, consecutive rule violations, connectivity problems, or abnormal spreads. A pause should trigger a review, not a rushed attempt to recover losses.",
+          "example": "A fictional demo plan stops new trades after a $20 daily loss or two rule violations. Even if a new setup looks appealing, the trader records it without entering.",
+          "practice": "Write a daily and weekly stop rule, plus a checklist for resuming demo practice after a review.",
+          "knowledge_check": {
+            "question": "What is the purpose of a circuit breaker?",
+            "choices": [
+              "To recover losses quickly",
+              "To enforce a precommitted pause",
+              "To guarantee no losses"
+            ],
+            "correct_index": 1,
+            "rationale": "A pause rule limits additional decisions during adverse conditions."
+          },
+          "caution": "Advanced editorial preview. Synthetic scenarios only; not financial advice, a live trading signal, or evidence of future performance. No completion credit or unlock changes."
+        },
+        {
+          "id": "10.05",
+          "title": "Stress Testing a Strategy",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "Stress tests examine adverse costs, slippage and losing streaks.",
+            "scenario": "A strategy profitable at a 1-pip spread may lose money at a 4-pip spread.",
+            "practice": "Recalculate sample expectancy with doubled costs and a losing streak.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "**Testing adverse trading conditions.** Stress testing asks whether a strategy or plan remains tolerable when assumptions worsen. Increase spreads, add slippage, model clusters of losses, and test correlated positions. Compare gross and net results; even a favorable historical simulation does not establish future profitability. Document every assumption before interpreting the outcome.",
+          "example": "A fictional setup averages 4 pips gross per trade. With 1 pip total costs it nets 3; with 5 pips total costs it loses 1 pip on average, before any other differences.",
+          "practice": "Create a three-scenario table using 1-, 3-, and 5-pip total costs for a fictional 4-pip gross result. Add a five-loss sequence and describe whether the plan is tolerable.",
+          "knowledge_check": {
+            "question": "What does stress testing aim to reveal?",
+            "choices": [
+              "Guaranteed future returns",
+              "Sensitivity to worse costs and losses",
+              "A way to eliminate uncertainty"
+            ],
+            "correct_index": 1,
+            "rationale": "Stress tests explore vulnerabilities under adverse assumptions."
+          },
+          "caution": "Advanced editorial preview. Synthetic scenarios only; not financial advice, a live trading signal, or evidence of future performance. No completion credit or unlock changes."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Robust Strategy Evaluation",
+      "level": "Advanced",
+      "lessons": [
+        {
+          "id": "11.01",
+          "title": "Data Quality and Look-Ahead Bias",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "Clean timestamps, missing bars and adjusted data matter in backtests.",
+            "scenario": "Using tomorrow’s close to decide today’s entry is look-ahead bias.",
+            "practice": "Find the look-ahead error in a sample rule and rewrite it.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "A backtest is only as trustworthy as its price history. Check timestamps and time zones, missing candles, duplicate bars, bid/ask conventions, and whether the price available at the decision time is the price used by the test. Look-ahead bias occurs when a rule uses information that would not have existed when the trade decision was made. Data leakage can also happen through indicators calculated on a future-complete sample.",
+          "example": "A fictional system buys at the 10:00 candle open only if that same candle closes above its moving average. At 10:00 the close is not yet known, so this test cheats. A valid alternative waits until the 10:00 candle closes, then considers execution at the next available quote with realistic costs.",
+          "practice": "Create a 12-row fictional OHLC table with times. Intentionally duplicate one row, omit one interval, and write a rule that peeks at the next close. Mark each flaw and rewrite the rule using only information available at decision time.",
+          "caution": "Even a clean dataset cannot establish that a trading rule will work in the future.",
+          "knowledge_check": {
+            "question": "Which backtest rule avoids look-ahead bias?",
+            "choices": [
+              "Buy at the candle open using that candle’s eventual close",
+              "Decide after a candle closes, then model a later executable quote",
+              "Select the best entry after reviewing tomorrow’s prices"
+            ],
+            "correct_index": 1,
+            "rationale": "A signal must use information known at decision time; execution must be modeled afterward."
+          },
+          "expanded_lesson": {
+            "heading": "Reliable candles before clever strategies",
+            "guided_steps": [
+              "Read the core concept and highlight the rule that can be checked.",
+              "Work through the fictional example without assuming future prices are known.",
+              "Complete the practice exercise in a demo journal, then compare your answer to the rule."
+            ],
+            "reflection": "What observation would change your mind about this idea?",
+            "risk_note": "Even a clean dataset cannot establish that a trading rule will work in the future."
+          }
+        },
+        {
+          "id": "11.02",
+          "title": "Walk-Forward Testing",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "Walk-forward testing repeatedly evaluates rules on data not used to tune them.",
+            "scenario": "Tune on period A, test on B, then roll forward without peeking.",
+            "practice": "Sketch a chronological train/test schedule.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "Walk-forward testing separates rule development from evaluation. Choose a chronological training window, freeze parameters, and test on a later untouched window. Repeat by advancing both windows. Record all windows, including failures, and avoid tuning on the supposedly unseen test window. A single positive window may reflect luck or a temporary market regime.",
+          "example": "A hypothetical 12-month study uses months 1–4 to choose settings and month 5 for evaluation. It then uses months 2–5 to develop settings and month 6 for evaluation. Each evaluation month remains unseen until its turn. Results are combined only after all windows are completed.",
+          "practice": "Draw a calendar with three nonoverlapping evaluation months. For each, label the earlier development period, the date settings were frozen, and the evaluation period. State what happens if the result is disappointing.",
+          "caution": "Repeated tuning against test windows can silently turn them into training data.",
+          "knowledge_check": {
+            "question": "What is the purpose of an out-of-sample window?",
+            "choices": [
+              "To tune the strategy until it wins",
+              "To assess fixed rules on data not used to choose them",
+              "To exclude the largest losing trades"
+            ],
+            "correct_index": 1,
+            "rationale": "Out-of-sample data is reserved for evaluation, not parameter selection."
+          },
+          "expanded_lesson": {
+            "heading": "Test on tomorrow, not yesterday",
+            "guided_steps": [
+              "Read the core concept and highlight the rule that can be checked.",
+              "Work through the fictional example without assuming future prices are known.",
+              "Complete the practice exercise in a demo journal, then compare your answer to the rule."
+            ],
+            "reflection": "What observation would change your mind about this idea?",
+            "risk_note": "Repeated tuning against test windows can silently turn them into training data."
+          }
+        },
+        {
+          "id": "11.03",
+          "title": "Parameter Sensitivity",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "A robust strategy should not collapse when a parameter changes slightly.",
+            "scenario": "A 21-period average succeeding while 20 and 22 fail may signal overfitting.",
+            "practice": "Compare outcomes across a small parameter neighborhood.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "Parameter sensitivity asks whether small changes in a rule produce wildly different outcomes. A rule that looks profitable only at one exact moving-average length may be fitting noise. Compare a small, prespecified neighborhood of settings using the same costs and periods. Do not assume a flat performance surface proves an edge; it only reduces one warning sign.",
+          "example": "A fictional crossover system reports +12R at a 21-period setting but −8R at 20 and −6R at 22. That isolated peak is suspicious. Another system reports +3R, +4R, and +2R across the same settings; it appears less fragile, though still unproven.",
+          "practice": "Make a table for moving-average lengths 18–24. Enter invented after-cost results, then circle settings that fail when shifted by one period. Write what evidence would persuade you to pause testing.",
+          "caution": "A large search over settings increases the chance of discovering a lucky-looking result.",
+          "knowledge_check": {
+            "question": "Which result raises an overfitting concern?",
+            "choices": [
+              "Similar results across nearby settings",
+              "One extraordinary setting surrounded by failures",
+              "A documented loss during an event"
+            ],
+            "correct_index": 1,
+            "rationale": "An isolated optimum may be noise rather than a durable market relationship."
+          },
+          "expanded_lesson": {
+            "heading": "Prefer stability over a perfect setting",
+            "guided_steps": [
+              "Read the core concept and highlight the rule that can be checked.",
+              "Work through the fictional example without assuming future prices are known.",
+              "Complete the practice exercise in a demo journal, then compare your answer to the rule."
+            ],
+            "reflection": "What observation would change your mind about this idea?",
+            "risk_note": "A large search over settings increases the chance of discovering a lucky-looking result."
+          }
+        },
+        {
+          "id": "11.04",
+          "title": "Monte Carlo and Drawdown Scenarios",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "Monte Carlo resampling illustrates possible equity-path variation, not certainty.",
+            "scenario": "The same set of trade outcomes can produce different maximum drawdowns when reordered.",
+            "practice": "Simulate or sketch three sequences with identical wins and losses.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "Monte Carlo resampling explores how a set of hypothetical trade outcomes might behave in different sequences. Reordering the same trades can produce different losing streaks and maximum drawdowns. This illustrates path uncertainty, not the probability of a future profit. Simple reshuffling assumes outcomes are exchangeable; changing market regimes and clustered losses can violate that assumption.",
+          "example": "Consider fictional outcomes of +2R, +2R, −1R, −1R, −1R, −1R. The total is zero R regardless of order, but four losses in a row can create a more stressful drawdown than losses separated by wins. Fees can make the net result negative.",
+          "practice": "Arrange the six outcomes into three different sequences. Compute cumulative R after every trade, record each peak and trough, and compare maximum peak-to-trough drawdowns. Explain what reshuffling cannot capture.",
+          "caution": "Simulation outputs depend heavily on assumptions and cannot guarantee maximum loss.",
+          "knowledge_check": {
+            "question": "What does reshuffling a fixed set of trades illustrate?",
+            "choices": [
+              "Guaranteed future returns",
+              "How sequence can change drawdown",
+              "That transaction costs disappear"
+            ],
+            "correct_index": 1,
+            "rationale": "The same outcomes in a different order can create a different equity path."
+          },
+          "expanded_lesson": {
+            "heading": "The order of wins and losses matters",
+            "guided_steps": [
+              "Read the core concept and highlight the rule that can be checked.",
+              "Work through the fictional example without assuming future prices are known.",
+              "Complete the practice exercise in a demo journal, then compare your answer to the rule."
+            ],
+            "reflection": "What observation would change your mind about this idea?",
+            "risk_note": "Simulation outputs depend heavily on assumptions and cannot guarantee maximum loss."
+          }
+        },
+        {
+          "id": "11.05",
+          "title": "When to Retire a Strategy",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "Retirement rules reduce attachment to strategies that no longer fit evidence.",
+            "scenario": "Persistent out-of-sample underperformance may justify pausing a strategy.",
+            "practice": "Set review thresholds before seeing future performance.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "A strategy retirement plan defines pause conditions before disappointing results arrive. Separate ordinary variation from structural problems such as changing execution costs, disappearing liquidity, repeated rule violations, or persistent out-of-sample underperformance. Record what evidence would trigger review, what data to inspect, and when a revised strategy counts as a new experiment.",
+          "example": "A fictional demo strategy has a prewritten pause rule: review after 30 observations, or sooner if data quality fails or realized spread consistently exceeds the tested assumption. A pause is not proof that the strategy is permanently broken; it is a safety decision.",
+          "practice": "Write three objective pause triggers, two diagnostic questions, and one requirement for restarting demo tests. Include a condition under which the strategy is permanently archived rather than quietly rewritten.",
+          "caution": "Short-term losses alone do not identify the cause; avoid inventing certainty from small samples.",
+          "knowledge_check": {
+            "question": "Which is a defensible strategy pause rule?",
+            "choices": [
+              "Double the position after three losses",
+              "Pause when a predeclared execution-cost threshold is breached",
+              "Remove losing trades from the journal"
+            ],
+            "correct_index": 1,
+            "rationale": "Predeclared evidence-based rules limit emotional or retrospective decisions."
+          },
+          "expanded_lesson": {
+            "heading": "Know when to stop testing or trading a rule",
+            "guided_steps": [
+              "Read the core concept and highlight the rule that can be checked.",
+              "Work through the fictional example without assuming future prices are known.",
+              "Complete the practice exercise in a demo journal, then compare your answer to the rule."
+            ],
+            "reflection": "What observation would change your mind about this idea?",
+            "risk_note": "Short-term losses alone do not identify the cause; avoid inventing certainty from small samples."
+          }
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Independent Demo-Trading Capstone",
+      "level": "Advanced",
+      "lessons": [
+        {
+          "id": "12.01",
+          "title": "Forming a Testable Trading Hypothesis",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "A trading hypothesis must be specific enough to disprove.",
+            "scenario": "“Breakouts work” is vague; “after a close beyond a 20-bar range...” is testable.",
+            "practice": "Write a falsifiable hypothesis and its measurement.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "A testable trading hypothesis names the market, timeframe, observable setup, entry timing, exit rule, costs, and measurable outcome. It also states what result would count against the idea. “Breakouts work” is too vague; “a close above the previous 20-bar range, tested at the next quote under fixed risk and costs” can be evaluated. A hypothesis is not a promise of profit.",
+          "example": "Hypothesis: On a fictional EUR/USD 1-hour dataset, a close above the previous 20 completed candles’ high is followed by a positive average after-cost R over the next ten candles, using a fixed exit rule. This can be rejected if the observed average is nonpositive.",
+          "practice": "Rewrite “buy strong trends” into one sentence containing pair, timeframe, signal, execution timing, costs, exit, and rejection criterion. Then list two ways the result could be misleading.",
+          "caution": "Hypotheses based on small or selected samples may look convincing by chance.",
+          "knowledge_check": {
+            "question": "What makes a hypothesis falsifiable?",
+            "choices": [
+              "It guarantees the next trade",
+              "It defines a measurable outcome that could contradict the claim",
+              "It uses many indicators"
+            ],
+            "correct_index": 1,
+            "rationale": "A falsifiable claim specifies observations that would count against it."
+          },
+          "expanded_lesson": {
+            "heading": "Make a claim that can be disproved",
+            "guided_steps": [
+              "Read the core concept and highlight the rule that can be checked.",
+              "Work through the fictional example without assuming future prices are known.",
+              "Complete the practice exercise in a demo journal, then compare your answer to the rule."
+            ],
+            "reflection": "What observation would change your mind about this idea?",
+            "risk_note": "Hypotheses based on small or selected samples may look convincing by chance."
+          }
+        },
+        {
+          "id": "12.02",
+          "title": "Documenting Trading Rules",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "Written rules define data, timeframe, entry, exit, costs and risk.",
+            "scenario": "If two testers interpret the same rule differently, the rule needs clarification.",
+            "practice": "Create a one-page rules sheet and identify ambiguous terms.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "A trading rules sheet should allow two independent testers to make the same decision from the same data. Define the data source, session, timeframe, indicator calculations, entry trigger, order type, stop, target or time exit, sizing, costs, invalidation, daily stop, and no-trade conditions. Resolve ambiguous terms like “strong candle” with numerical definitions before testing.",
+          "example": "An ambiguous rule says “buy a convincing breakout.” A reproducible version says “after a completed 1-hour candle closes at least 2 pips above the preceding 20-bar high, record a simulated next-quote entry unless spread exceeds 2 pips.” This is an illustration, not a recommended strategy.",
+          "practice": "Create a one-page rules checklist with at least eight fields. Give it to a hypothetical second tester and identify any word that could be interpreted differently. Rewrite those words as measurable conditions.",
+          "caution": "No checklist prevents slippage, gaps, or changing market conditions.",
+          "knowledge_check": {
+            "question": "Which rule is most reproducible?",
+            "choices": [
+              "Enter when price feels strong",
+              "Buy after a completed candle closes above a defined range and costs pass a threshold",
+              "Buy when the chart looks ready"
+            ],
+            "correct_index": 1,
+            "rationale": "Specific measurable conditions allow consistent independent testing."
+          },
+          "expanded_lesson": {
+            "heading": "Write rules another person can follow",
+            "guided_steps": [
+              "Read the core concept and highlight the rule that can be checked.",
+              "Work through the fictional example without assuming future prices are known.",
+              "Complete the practice exercise in a demo journal, then compare your answer to the rule."
+            ],
+            "reflection": "What observation would change your mind about this idea?",
+            "risk_note": "No checklist prevents slippage, gaps, or changing market conditions."
+          }
+        },
+        {
+          "id": "12.03",
+          "title": "Executing a Demo Observation Plan",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "A demo observation plan fixes sample size, environment and logging.",
+            "scenario": "Changing spreads or market sessions mid-test can confound results.",
+            "practice": "Specify observation count, dates, pairs, cost assumptions and stop conditions.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "A demo observation protocol fixes the testing environment and review schedule in advance. Specify the pair, timeframes, dates, number of observations, data source, spread assumptions, risk cap, journal fields, and pause conditions. Record missed signals and rule violations, not only completed demo trades. Changing settings midway creates a new experiment and should be logged separately.",
+          "example": "A fictional 20-observation protocol tracks one pair over four weeks. Every qualifying signal is recorded with timestamp, intended entry, stop distance, modeled costs, outcome in R, and whether rules were followed. The tester reviews results only on prescheduled dates.",
+          "practice": "Write a 20-observation protocol with five mandatory journal fields, a daily stopping rule, and a procedure for unexpected platform outages. Explain how you would document a rule change without contaminating the original sample.",
+          "caution": "Demo execution and emotions differ from live trading; a positive demo sample is not proof of profitability.",
+          "knowledge_check": {
+            "question": "What should happen if the rules change halfway through a demo study?",
+            "choices": [
+              "Pretend all trades used the new rules",
+              "Record the change and treat later observations as a separate test",
+              "Delete the first half"
+            ],
+            "correct_index": 1,
+            "rationale": "Changes must be tracked so unlike experiments are not mixed together."
+          },
+          "expanded_lesson": {
+            "heading": "Observe without changing the rules mid-test",
+            "guided_steps": [
+              "Read the core concept and highlight the rule that can be checked.",
+              "Work through the fictional example without assuming future prices are known.",
+              "Complete the practice exercise in a demo journal, then compare your answer to the rule."
+            ],
+            "reflection": "What observation would change your mind about this idea?",
+            "risk_note": "Demo execution and emotions differ from live trading; a positive demo sample is not proof of profitability."
+          }
+        },
+        {
+          "id": "12.04",
+          "title": "Reviewing a Trading Sample",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "Review both outcomes and whether the process was followed.",
+            "scenario": "A profitable trade with a broken stop rule is a process failure.",
+            "practice": "Create a summary of adherence, expectancy, costs and uncertainty.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "Review each observation for rule adherence as well as profit or loss. Summarize count, win rate, average win, average loss, costs, expectancy in R, maximum drawdown, and the number of violations. Separate gross from net results. Small samples have high uncertainty; a few lucky wins can dominate averages. A profitable but rule-breaking trade is a process failure.",
+          "example": "A fictional sample has 8 wins averaging +1.5R and 12 losses averaging −1R. Gross total is zero R (8×1.5 − 12×1), or 0R per trade. If average costs are 0.1R per trade, net expectancy is −0.1R per trade.",
+          "practice": "Make a 20-row journal with hypothetical R results. Calculate win rate, average win, average loss, gross and after-cost expectancy, and peak-to-trough drawdown. Identify two trades where the process was violated, regardless of outcome.",
+          "caution": "A 20-observation sample is too small to establish a dependable future edge.",
+          "knowledge_check": {
+            "question": "Which statement best evaluates a strategy sample?",
+            "choices": [
+              "Win rate alone proves an edge",
+              "Net expectancy and rule adherence both matter",
+              "A winning rule violation is always acceptable"
+            ],
+            "correct_index": 1,
+            "rationale": "Costs, payoff size, sample uncertainty, and discipline matter alongside win rate."
+          },
+          "expanded_lesson": {
+            "heading": "Evaluate the process and the outcome",
+            "guided_steps": [
+              "Read the core concept and highlight the rule that can be checked.",
+              "Work through the fictional example without assuming future prices are known.",
+              "Complete the practice exercise in a demo journal, then compare your answer to the rule."
+            ],
+            "reflection": "What observation would change your mind about this idea?",
+            "risk_note": "A 20-observation sample is too small to establish a dependable future edge."
+          }
+        },
+        {
+          "id": "12.05",
+          "title": "Final Presentation and Ongoing Improvement Plan",
+          "status": "expanded_draft_review",
+          "editorial_outline": {
+            "concept": "Present limitations, risk assumptions and next steps without promises.",
+            "scenario": "A small positive demo sample does not prove a sustainable live edge.",
+            "practice": "Prepare a final report with methodology, evidence, weaknesses and next test.",
+            "caution": "Editorial preview only. No grade or completion credit; verify assumptions with historical and demo evidence."
+          },
+          "explanation": "A final capstone report explains the hypothesis, frozen rules, dataset, test dates, assumptions, outcomes, process adherence, limitations, and next experiment. Include losing periods and any deviations from the protocol. State clearly what the evidence does not show. The goal is a repeatable learning process, not a certificate of profitable trading.",
+          "example": "A student presents 20 fictional demo observations with a small positive gross return but negative net expectancy after costs. A strong conclusion identifies execution costs as a weakness and proposes a new preregistered test rather than claiming success.",
+          "practice": "Prepare a one-page capstone with these headings: Question, Rules, Data, Risk, Results, Costs, Mistakes, Limitations, and Next Test. Add one sentence describing what would cause you to stop or revise the strategy.",
+          "caution": "Completing an educational capstone does not establish trading competence or suitability for live leveraged markets.",
+          "knowledge_check": {
+            "question": "What is the most credible capstone conclusion?",
+            "choices": [
+              "The strategy cannot lose now",
+              "The demo sample is limited and needs independent validation",
+              "A good-looking chart guarantees profit"
+            ],
+            "correct_index": 1,
+            "rationale": "A capstone should disclose uncertainty and support a reproducible next step."
+          },
+          "expanded_lesson": {
+            "heading": "Present evidence without overselling it",
+            "guided_steps": [
+              "Read the core concept and highlight the rule that can be checked.",
+              "Work through the fictional example without assuming future prices are known.",
+              "Complete the practice exercise in a demo journal, then compare your answer to the rule."
+            ],
+            "reflection": "What observation would change your mind about this idea?",
+            "risk_note": "Completing an educational capstone does not establish trading competence or suitability for live leveraged markets."
+          }
+        }
+      ]
+    }
+  ]
+}
